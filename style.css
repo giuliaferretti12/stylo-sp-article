@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*
+ * Réglages généraux
+ */
+html {
+  /* Typographie générale du document */
+  /* 1. Police spéciale, chargée localement (voir le fichier raleway.css chargé dans le document HTML) */
+  /* 2. Police générique, sans empattement */
+  font-family: 'PT Sans', sans-serif;
+  line-height: 125%;
+
+  background-color: beige;
+}
+
+body {
+  /* Limiter la largeur de tout le contenu sur la page et centrer horizontalement */
+  margin: 1rem auto;
+  max-width: 72rem;
+
+  /* Ajouter une marge constante pour éviter le texte collé sur les bords de la fenêtre */
+  padding: 1rem;
+}
+
+
+/*
+ * Règles horizontales
+ */
+hr {
+  /* Un bon espacement vertical, aucun espacement horizontal */
+  margin: 2rem 0;
+  /* Remettre la bordure à zéro... */
+  border: 0;
+  /* ... et ajouter une simple bordure légère */
+  border-top: 1px solid #ccc;
+}
+
+
+
